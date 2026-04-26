@@ -1,0 +1,54 @@
+# Secrets et credentials
+*.key
+*.pem
+cosign.key
+*.token
+secrets/
+.env
+.env.local
+
+# Kubeconfig
+kubeconfig
+*.kubeconfig
+k3s.yaml
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+.~*
+
+# Node modules
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Large files
+*.iso
+*.vmdk
+*.qcow2
